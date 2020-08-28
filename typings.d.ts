@@ -737,7 +737,7 @@ declare module 'date-fns' {
   function isTuesday(date: Date | number): boolean
   namespace isTuesday {}
 
-  function isValid(date: any): boolean
+  function isValid(date: any): date is Date
   namespace isValid {}
 
   function isWednesday(date: Date | number): boolean
